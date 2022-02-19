@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <!--method Get: muestra en la URLlos paramewtros y sus valores "ojo no usar en presencia de password"-->
+    <!--method Post: envia los parametros ocultos-->
+    <form action="" method="post">
+        <label for="Nombre:">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre"><br>
+        <label for="Apellido:">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese apellido"><br>
+        <label for="Correo">Correo</label>
+        <input type="email" id="correo" name="correo" placeholder="Ingrese correo">
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Ingrese password">
+        <br>
+        <!--input radio (de una lista 1)-->
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="femenino" name="genero" value="1">
+        <br>
+        <input type="radio" id="masculino" name="genero" value="2">
+        <label for="masculino">Masculino</label>
+        <br>
+        <input type="radio" id="nose" name="genero" value="3">
+        <label for="nose">No Se</label>
+        <br>
+        <!---checkbox-->
+        <label for="java">java</label>
+        <input type="checkbox" id="" name="" value="" <label for="js">js</label>
+        <input type="checkbox" id="" name="" value="" <label for="python">python</label>
+        <input type="checkbox" id="" name="" value="" </form>
+        <br>
+        <!--select (seleccionar desde una lista)-->
+        <label for="" <select name="Lenguajes" id="Lenguajes">
+            <option value="0">Seleccione</option>
+            <option value="1">Java</option>
+            <option value="2">JavaScript</option>
+            <option value="3">Python</option>
+        </select>
+        <br>
+        <!--text area-->
+        <textarea id="descripcion" name="descripcion" rows="4" cols="20" maxlength="20"></textarea>
+<br>
+<input type="hidden" name="modulo" id="modulo" value="1"> <!--control oculto interno de la pagina-->
+    <br>
+    <!--botones-->
+    <input type="button" id="" name="" value="validar">
+    <input type="submit" value="enviar">
+
+
+
+
+</body>
+
+</html>
