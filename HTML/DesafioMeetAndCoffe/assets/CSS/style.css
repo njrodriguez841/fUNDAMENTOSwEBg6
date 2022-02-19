@@ -97,6 +97,12 @@ footer {
 .centrado {
     width: 75%;
     margin: 0 auto;
+    /*margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    margin-right: 30px;
+    margin: 0 30px;
+    margin: 0 30px 0 30px;*/
 }
 
 .charla-speaker,
@@ -130,6 +136,7 @@ nav {
     padding: 1.25rem 4rem;
     position: fixed;
     width: 100vw;
+    top: 0;
 }
 
 nav ul {
@@ -152,4 +159,26 @@ nav ul li {
 
 footer i {
     margin: 0 0.25em 0.5em 0.25em;
+}
+
+.titulo {
+    text-align: left;
+}
+
+.parrafo {
+    text-align: justify;
+    box-sizing: content-box;
+}
+
+#principal {
+    margin-top: 100px;
+}
+
+.centrado2 {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.centrado2 img {
+    width: 725px;
 }
