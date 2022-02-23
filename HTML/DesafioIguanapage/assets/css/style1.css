@@ -1,0 +1,44 @@
+    body {
+        background-color: hsl(0, 0%, 3%);
+        font-family: 'Raleway', sans-serif;
+        color: white;
+    }
+    
+    .inicio {
+        top: 73px;
+        left: 0px;
+        width: 1280px;
+        height: 727px;
+        background: transparent url('img/photo-1516008805996-d2abb468cc9a.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+    
+    .parrafo {
+        top: 876px;
+        left: 150px;
+        width: 475px;
+        height: 197px;
+        color: aliceblue;
+    }
+    
+    h1 {
+        color: white;
+        text-align: center;
+    }
+    
+    #id_iguana {
+        width: 100%;
+    }
+    
+    .micontainer {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .d-inline-block {
+        display: inline-block;
+    }
+    
+    #iguanaparrafo {
+        width: 50%;
+    }
