@@ -42,3 +42,11 @@
     #iguanaparrafo {
         width: 50%;
     }
+    
+    #barraiconos {
+        display: inline-block;
+        background-color: hsl(0, 0%, 3%);
+        font-family: 'Raleway', sans-serif;
+        color: white;
+        width: 30%;
+    }
