@@ -13,3 +13,8 @@ h1 {
 #containerS {
     background-color: #17A2B8;
 }
+
+#divmaloso {
+    /*justify-content: flex-end;*/
+    width: 50%;
+}
