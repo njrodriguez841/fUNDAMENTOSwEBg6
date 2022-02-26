@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones</title>
+    <script>
+        var calc = function ejemplo(numero1, numero2) {
+            function suma() {
+                return numero1 + numero2;
+            }
+
+            function resta() {
+                return numero1 - numero2;
+            }
+
+            function multiplicacion() {
+                return numero1 * numero2;
+            }
+
+            function divicion() {
+                return numero1 / numero2;
+            }
+            //console.log(suma()); // solo esta imprimiendo internamente
+            return multiplicacion();
+        }
+        var operaciones = calc(4, 6); //capturamos el retorno de la funcion ejemplo
+        //console.log(suma());// no se puede llamar una funcion interna de otra funcion
+
+        console.log("operaciones", operaciones);
+
+        //ciclos
+        //var numero = parseInt(prompt("ingrese un numero"));
+        /*for (let i = 0; i <= 10; i++) {
+            if (i == 5) {
+                continue;
+            }
+            if (i == 8) {
+                break;
+            }
+            console.log(`${numero}* ${i} = ${numero*i}`) // 2*0 
+        } //final
+        */
+        //console.log(i);// i is not defined
+
+        //WHILE
+        /*var numero = parseInt(prompt("ingrese un numero"));
+        var i = 0;
+        while (i <= 10) {
+            i++;
+            console.log(`${numero}* ${i} = ${numero*i}`);
+        }*/
+        // DO-WHILE
+        var numero = parseInt(prompt("ingrese un numero"));
+        var i = 0;
+        do {
+            i++;
+            console.log(`${numero}* ${i} = ${numero*i}`);
+        } while (i < 10);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
