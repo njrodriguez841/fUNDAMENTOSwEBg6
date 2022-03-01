@@ -6,15 +6,15 @@ footer {
     background-color: #e83e8c;
 }
 
-h1 {
-    font-size: 400%;
+#titulo {
+    font-size: 300%;
 }
 
 #containerS {
     background-color: #17A2B8;
 }
 
-#divmaloso {
-    /*justify-content: flex-end;*/
+#divresolutor {
+    justify-content: flex-end;
     width: 50%;
 }
