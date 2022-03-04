@@ -7,18 +7,14 @@ nav {
     text-align: center;
 }
 
-#divresolutor {
-    justify-content: flex-end;
-    width: 50%;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .p2 {
     color: #28A745;
-    font-size: 30px;
+    font-size: 25px;
+    align-self: flex-end;
 }
 
 .direccion p {
