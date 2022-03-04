@@ -2,15 +2,26 @@ nav {
     background-color: #28A745;
 }
 
-#titulo {
-    font-size: 300%;
-}
-
 #containerS {
-    background-color: #17A2B8;
+    background-color: #28A745;
+    text-align: center;
 }
 
 #divresolutor {
     justify-content: flex-end;
     width: 50%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p2 {
+    color: #28A745;
+    font-size: 30px;
+}
+
+.direccion p {
+    color: #707070;
+    display: inline-block
 }
