@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    font: bold 1.5em arial;
+    padding: 0.5em;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font: bold 1.2em arial;
+    padding: 0.2em;
+    margin: 0;
+}
+
+p {
+    text-align: left;
+    font: 1em arial;
+    padding: 0.1em;
+    margin: 0;
+}
+
+div {
+    border: 1px solid black;
+    width: 75%;
+    margin: 1%;
+    padding: 1%;
+    float:
+}

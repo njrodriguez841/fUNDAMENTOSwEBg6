@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Desafío - Uso de variables y operadores aritméticos </title>
+    <link rel="stylesheet" href="Assets/CSS/styleOperadores.css" </style>
+</head>
+
+<body>
+    <h1>Desafío - Uso de variables y operadores aritméticos</h1>
+    <script type="text/javascript">
+        var a = prompt("escribe un número");
+        var b = prompt("escribe otro número");
+        a = Number(a)
+        b = Number(b)
+    </script>
+    <div>
+        <h2>Operadores clásicos</h2>
+        <script type="text/javascript">
+            var suma = a + b;
+            var resta = a - b;
+            var multiplicacion = a * b;
+            var division = a / b;
+            var modulo = a % b
+            document.write("Suma: " + a + " + " + b + " = " + suma + "<br/>")
+            document.write("Resta: " + a + " - " + b + " = " + resta + "<br/>")
+            document.write("Multiplicación: " + a + " * " + b + " = " + multiplicacion + "<br/>")
+            document.write("División: " + a + " / " + b + " = " + division + "<br/>")
+            document.write("Módulo: " + a + " mod. " + b + " = " + modulo + "<br/>")
+        </script>
+    </div>
+    <br>
+    <div>
+        <h2>Conversion de Temperaturas</h2>
+        <script type="text/javascript">
+            var inputcelsius = parseInt(prompt("ingresa la temperatura en grados °Celsius"));
+            var conversora = 273.15
+            var conversionK = inputcelsius + conversora
+            var conversionF = inputcelsius * 9 / 5 + 32
+            document.write("Convercion a °Kelvin: " + inputcelsius + "+" + conversora + " = " + conversionK + "<br/>");
+            document.write("Convercion a °Fahrenheit:= " + conversionF + "<br/>");
+        </script>
+    </div>
+    <br>
+    <div>
+        <h2>Equivalencia Años Semanas y Dias</h2>
+        <script type="text/javascript">
+            var inputcantdias = parseInt(prompt("ingresa Cantidad de Dias a convertir"));
+            var diasanio = 365
+            var conversionAnios = parseInt(inputcantdias / diasanio);
+            var conversionSem = parseInt((inputcantdias % diasanio) / 7)
+            var conversionDias = parseInt((inputcantdias % diasanio) % 7)
+            document.write("El equivalente en años es = " + conversionAnios + "<br/>");
+            document.write("La cantidad de semanas es = " + conversionSem + "<br/>");
+            document.write("La cantidad de dias es = " + conversionDias + "<br/>");
+        </script>
+    </div>
+    <div>
+        <h2>Operaciones con numeros</h2>
+        <script type="text/javascript">
+            alert("Ingrese 5 numeros para realizar calculos");
+            var numero1 = parseInt(prompt("ingrese primer numero"));
+            var numero2 = parseInt(prompt("ingrese segundo numero"));
+            var numero3 = parseInt(prompt("ingrese tercer numero"));
+            var numero4 = parseInt(prompt("ingrese cuarto numero"));
+            var numero5 = parseInt(prompt("ingrese quinto numero"));
+            var resultado = numero1 + numero2 + numero3 + numero4 + numero5;
+            var promedio = resultado / 5
+            document.write("El resultado de la sumatoria  de todos los numeros es = " + resultado + "<br/>");
+            document.write("El promedio de los 5 números ingresados es = " + promedio + "<br/>");
+        </script>
+    </div>
+
+</body>
+
+</html>
